@@ -29,7 +29,7 @@
 	//position
 	display: block;
 	text-align: center;
-
+	
 	//font
 	color: #333;
 	font-size: 125px;
@@ -58,23 +58,35 @@
 	margin: 10px 0 0 0;
 	line-height: 1.5;
 }
+#revenues {
+	float: left;
+}
 .rev-growth{
-	font-size: 30px;
+	margin: 15px 0 0 0;
+	font-size: 20px;
+	float: left;
+}
+#rev-growth{
+
+
 }
 .expenses {
 	float: right;
 	margin: 10px 0 0 0;
+	padding: 0 0 0 20px;
 	line-height: 1.5;
 	span {
 		padding: none;
-		margin: none;
-		border: none;
-	}
-	.okurigana {
-		color: #8d8d8b;
-	}
+		margin: none;	
+	}	
+	overflow: hidden;
+}
+#expenses {
+	float: left;
 }
 .exp-growth {
+	float: left;
+	margin: 15px 0 0 0;
 	font-size: 30px;
 }
 
@@ -82,11 +94,17 @@
 	//position
 	margin: 50px 0 0 0;
 	text-align: center;
-
+	float: center;
 	//font
 	color: #333332;
 	line-height: 1.5;
 	font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif;
 	font-weight: 400;
 	font-size: 32px;
+
+	overflow: hidden;
+}
+#cash {
+	//float: left;
+
 }
